@@ -1,0 +1,209 @@
+h1, h2 {
+  text-align: center;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+p {
+  line-height: 160%;
+  max-width: 700px;
+  margin: 10px auto 25px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 60px;
+}
+
+.header p {
+  font-family: georgia;
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  margin-top: -28px;
+}
+
+
+.credit {
+  text-align :center;
+  padding: 10px;
+  width: 100%;
+  line-height: 100%;
+}
+
+.credit a{
+  color: #000;
+ text-decoration: none; 
+ font-weight: bold;
+}
+
+body .navbar-wrapper {
+  position: relative;
+  border-top: 1px solid #E6E7E8;
+  border-bottom: 1px solid #E6E7E8;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-top: 30px;
+  background: #FBFBFB;
+  height: 45px;
+  margin-bottom: 55px;
+}
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+  width: 1170px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+body .navbar-wrapper .navbar {
+  margin-bottom: 0;
+}
+body .center {
+  float: right;
+  right: 50%;
+  left: auto;
+  position: relative;
+}
+.navbar {
+  overflow: visible;
+  margin-bottom: 20px;
+}
+body .navbar-wrapper .navbar .navbar-inner {
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
+}
+body .center .inner-center {
+  float: right;
+  right: -50%;
+  position: relative;
+}
+.navbar-inner {
+  min-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #FAFAFA;
+  background-image: -moz-linear-gradient(top, #fff, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#F2F2F2));
+  background-image: -webkit-linear-gradient(top, #FFF, #F2F2F2);
+  background-image: -o-linear-gradient(top, #fff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #FFF,#F2F2F2);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  border: 1px solid #D4D4D4;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+.collapse {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+
+.navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  list-style: none;p
+  padding: 0;
+}
+body .navbar-wrapper .navbar .logo .brand:hover {
+  top: -31px;
+  background: none;
+}
+.navbar .nav>li {
+  float: left;
+  line-height: 20px;
+}
+
+body .navbar-wrapper .navbar .nav>li.active>a {
+  background: #F0F0F0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+body .navbar-wrapper .navbar .nav>li>a {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+body .navbar-wrapper .navbar .logo .brand {
+  margin-left: 0;
+  top: -35px;
+  padding: 0 0;
+  position: absolute;
+  -webkit-transition: top 0.1s ease-in-out,0.1s;
+  -moz-transition: top 0.1s ease-in-out,0.1s;
+  -o-transition: top 0.1s ease-in-out,0.1s;
+  transition: top 0.1s ease-in-out,0.1s;
+}
+
+body .navbar-wrapper .navbar .logo {
+  position: relative;
+  width: 77px;
+  height: 50px;
+}
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+  color: #555;
+  text-decoration: none;
+  background-color: #E5E5E5;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,0.125);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+body .navbar-wrapper .navbar .small_brand {
+display: none;
+}
+
+.navbar .nav>li>a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #777;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #FFF;
+}
+
+.nav>li>a {
+display: block;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+@media (min-width: 980px) {
+  .nav-collapse.collapse {
+  height: auto !important;
+  overflow: visible !important;
+  }
+}

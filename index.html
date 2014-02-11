@@ -1,1 +1,72 @@
-Hello World
+---
+layout: default
+title: Parallax Slider by Oozou
+overview: true
+---
+
+
+<div class="container">
+
+	<div class="header">
+		<h1>jQuery Oozou Slider</h1>	
+		<p>Create a responsive parallax slider with beautiful CSS3 transition.</p>
+	</div>
+	<div id="slide" class="slider">
+	  <div class="os-inner">
+	    <div class="slide1 active" data-background="img/1.jpg">
+	      <div class="os-content">Welcome to Oozou</div>
+	    </div>
+	    <div class="slide2" data-background="img/2.jpg">
+	      <div class="os-content">We perfected startups</div>
+	    </div>
+	    <div class="slide1" data-background="img/1.jpg">
+	      <div class="os-content">We do great designs</div>
+	    </div>
+	    <div class="slide2" data-background="img/2.jpg">
+	      <div class="os-content">We help build your dreams</div>
+	    </div>
+	  </div>
+	  <div class="os-navigation" data-slider="slide">
+		  <a href="#" class="os-prev">
+			   &#10094;
+			 </a>
+		 <a href="#" class="os-next">
+		   &#10095;
+		 </a>
+		</div>
+	</div>
+	
+	<div id="slide2" class="slider">
+	  <div class="os-inner ">
+	    <div class="slide2 active" data-background="img/2.jpg">
+	      <div class="os-content">We perfected startups</div>
+	    </div>
+	    <div class="slide1" data-background="img/1.jpg">
+	      <div class="os-content">We do great designs</div>
+	    </div>
+	  </div>
+	  <div class="os-navigation" data-slider="slide">
+		  <a href="#" class="os-prev">
+			   &#10094;
+			 </a>
+		 <a href="#" class="os-next">
+		   &#10095;
+		 </a>
+		</div>
+	</div>
+	
+	
+	
+</div><!-- Container -->
+
+<p class="credit">Photos by <a href="http://www.flickr.com/photos/emilyrides/" target="_blank">emilydickinsonridesabmx</a></p>
+
+<script type="text/javascript">
+  $("#slide").slider();
+  $("#slide2").slider({
+    direction: "vertical",
+    loop: true,
+    parallax: false,
+    autoplay: 4000
+  });
+</script>

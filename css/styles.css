@@ -1,0 +1,14 @@
+.os-slider .os-slide .os-content { 
+ font-weight: bold;
+ text-transform: uppercase; 
+ letter-spacing: 2px;
+ box-sizing: border-box;
+ line-height: 100%;
+}
+
+.os-slider .os-slide{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  display: none;
+}

@@ -1,45 +1,44 @@
-h1, h2 {
-  text-align: center;
-}
+/* line 2, ../_sass/default.scss */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "open sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-
-
-
-p {
+/* line 6, ../_sass/default.scss */
+body p {
   line-height: 160%;
   max-width: 700px;
   margin: 10px auto 25px;
 }
-
-h1 {
+/* line 12, ../_sass/default.scss */
+body h1, body h2 {
+  text-align: center;
+}
+/* line 16, ../_sass/default.scss */
+body h1 {
   font-weight: 100;
   font-size: 60px;
 }
-
-.header p {
+/* line 22, ../_sass/default.scss */
+body .header p {
   font-family: georgia;
   font-style: italic;
   text-align: center;
   font-size: 24px;
   margin-top: -28px;
 }
-
-
-.credit {
-  text-align :center;
+/* line 31, ../_sass/default.scss */
+body .credit {
+  text-align: center;
   padding: 10px;
   width: 100%;
   line-height: 100%;
 }
-
-.credit a{
+/* line 37, ../_sass/default.scss */
+body .credit a {
   color: #000;
- text-decoration: none; 
- font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
 }
-
+/* line 44, ../_sass/default.scss */
 body .navbar-wrapper {
   position: relative;
   border-top: 1px solid #E6E7E8;
@@ -53,65 +52,117 @@ body .navbar-wrapper {
   height: 45px;
   margin-bottom: 55px;
 }
-
-.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
-  width: 1170px;
+/* line 57, ../_sass/default.scss */
+body .navbar-wrapper .navbar {
+  margin-bottom: 0;
+  overflow: visible;
+  margin-bottom: 20px;
 }
-.container {
+/* line 62, ../_sass/default.scss */
+body .navbar-wrapper .navbar .small_brand {
+  display: none;
+}
+/* line 66, ../_sass/default.scss */
+body .navbar-wrapper .navbar .logo {
+  position: relative;
+  width: 77px;
+  height: 50px;
+}
+/* line 71, ../_sass/default.scss */
+body .navbar-wrapper .navbar .logo .brand {
+  margin-left: 0;
+  top: -35px;
+  padding: 0 0;
+  position: absolute;
+  -webkit-transition: top 0.1s ease-in-out, 1s;
+  -moz-transition: top 0.1s ease-in-out, 1s;
+  -o-transition: top 0.1s ease-in-out, 1s;
+  transition: top 0.1s ease-in-out, 1s;
+}
+/* line 77, ../_sass/default.scss */
+body .navbar-wrapper .navbar .logo .brand:hover {
+  top: -31px;
+  background: none;
+}
+/* line 84, ../_sass/default.scss */
+body .navbar-wrapper .navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  list-style: none;
+  padding: 0;
+}
+/* line 92, ../_sass/default.scss */
+body .navbar-wrapper .navbar .nav > li {
+  float: left;
+  line-height: 20px;
+}
+/* line 96, ../_sass/default.scss */
+body .navbar-wrapper .navbar .nav > li > a {
+  display: block;
+  float: none;
+  color: #777;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* line 107, ../_sass/default.scss */
+body .navbar-wrapper .navbar .nav > li.active > a {
+  background: #F0F0F0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #555;
+  text-decoration: none;
+  background-color: #E5E5E5;
+}
+/* line 115, ../_sass/default.scss */
+body .navbar-wrapper .navbar .nav > li.active > a:hover, body .navbar-wrapper .navbar .nav > li.active > a:active, body .navbar-wrapper .navbar .nav > li.active > a:focus {
+  color: #555;
+  text-decoration: none;
+  background-color: #E5E5E5;
+}
+/* line 124, ../_sass/default.scss */
+body .navbar-wrapper .navbar .navbar-inner {
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+  min-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 137, ../_sass/default.scss */
+body .container {
+  width: 1170px;
   margin-right: auto;
   margin-left: auto;
 }
-body .navbar-wrapper .navbar {
-  margin-bottom: 0;
-}
+/* line 143, ../_sass/default.scss */
 body .center {
   float: right;
   right: 50%;
   left: auto;
   position: relative;
 }
-.navbar {
-  overflow: visible;
-  margin-bottom: 20px;
-}
-body .navbar-wrapper .navbar .navbar-inner {
-  border: 0;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  background: none;
-  -webkit-border-radius: none;
-  -moz-border-radius: none;
-  -ms-border-radius: none;
-  -o-border-radius: none;
-  border-radius: none;
-}
+/* line 148, ../_sass/default.scss */
 body .center .inner-center {
   float: right;
   right: -50%;
   position: relative;
 }
-.navbar-inner {
-  min-height: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #FAFAFA;
-  background-image: -moz-linear-gradient(top, #fff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#F2F2F2));
-  background-image: -webkit-linear-gradient(top, #FFF, #F2F2F2);
-  background-image: -o-linear-gradient(top, #fff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #FFF,#F2F2F2);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
-  border: 1px solid #D4D4D4;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-}
-.collapse {
+/* line 155, ../_sass/default.scss */
+body .collapse {
   position: relative;
   height: 0;
   overflow: hidden;
@@ -120,90 +171,19 @@ body .center .inner-center {
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
-
-.navbar .nav {
-  position: relative;
-  left: 0;
-  display: block;
-  float: left;
-  margin: 0 10px 0 0;
-  list-style: none;p
-  padding: 0;
-}
-body .navbar-wrapper .navbar .logo .brand:hover {
-  top: -31px;
-  background: none;
-}
-.navbar .nav>li {
-  float: left;
-  line-height: 20px;
-}
-
-body .navbar-wrapper .navbar .nav>li.active>a {
-  background: #F0F0F0;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
-body .navbar-wrapper .navbar .nav>li>a {
-  padding: 15px 20px;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-body .navbar-wrapper .navbar .logo .brand {
-  margin-left: 0;
-  top: -35px;
-  padding: 0 0;
-  position: absolute;
-  -webkit-transition: top 0.1s ease-in-out,0.1s;
-  -moz-transition: top 0.1s ease-in-out,0.1s;
-  -o-transition: top 0.1s ease-in-out,0.1s;
-  transition: top 0.1s ease-in-out,0.1s;
-}
-
-body .navbar-wrapper .navbar .logo {
-  position: relative;
-  width: 77px;
-  height: 50px;
-}
-.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
-  color: #555;
-  text-decoration: none;
-  background-color: #E5E5E5;
-  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,0.125);
-  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-}
-
-body .navbar-wrapper .navbar .small_brand {
-display: none;
-}
-
-.navbar .nav>li>a {
-  float: none;
-  padding: 10px 15px 10px;
-  color: #777;
-  text-decoration: none;
-  text-shadow: 0 1px 0 #FFF;
-}
-
-.nav>li>a {
-display: block;
-}
-
-.pull-left {
+/* line 165, ../_sass/default.scss */
+body .pull-left {
   float: left;
 }
-
-.pull-right {
+/* line 169, ../_sass/default.scss */
+body .pull-right {
   float: right;
 }
 
 @media (min-width: 980px) {
-  .nav-collapse.collapse {
-  height: auto !important;
-  overflow: visible !important;
+  /* line 178, ../_sass/default.scss */
+  body .nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
   }
 }

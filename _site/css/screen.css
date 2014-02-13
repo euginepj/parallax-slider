@@ -187,3 +187,19 @@ body .pull-right {
     overflow: visible !important;
   }
 }
+/* line 2, ../_sass/styles.scss */
+.os-slider .os-slide .os-content {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  line-height: 100%;
+}
+
+/* line 10, ../_sass/styles.scss */
+.os-slider .os-slide {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  display: none;
+}
